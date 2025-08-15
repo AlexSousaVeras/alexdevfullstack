@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio | Alexssandro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="assets/img/foto-my.jpg"/>
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container nav-wrapper">
+      <a class="brand" href="#">Dev<span>FullStack</span></a>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-controls="nav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="nav" class="nav" aria-label="Principal">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Início -->
+  <section id="inicio" class="hero container">
+    <div class="hero-text">
+      <h1>Olá, eu sou <span>Alexssandro</span> 👋</h1>
+      <p>Desenvolvedor FullStack focado em soluções simples, rápidas e responsivas.</p>
+    </div>
+
+    <!-- Área de foto -->
+    <div class="hero-photo">
+      <img src="assets/img/foto-my.jpg" alt="Minha foto" loading="lazy" />
+    </div>
+    <nav class="redes-sociais" id="redes-sociais" >
+      <a href="https://github.com/AlexSousaVeras" target="_blank" aria-label="GitHub">GitHub</a>
+      <br>
+      <a href="https://www.linkedin.com/in/alex-veras/" target="_blank" aria-label="LinkedIn">Linkedin</a>
+      <br>
+      <a href="http://sousaverasalexssandro@gmail.com" target="_blank" aria-label="Email">E-mail</a>
+      <br>
+      <a href="https://instagram.com/futuredevalex" target="_blank" aria-label="Instagram">Instagram</a>
+    </nav>
+    
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="section container">
+    <h2>Sobre</h2>
+    <p>
+      Sou um Desenvolvedor <span style="color: #4f46e5;">Full Stack</span>. Atualmente estou cursando Análise e Desenvolvimento 
+      de Sistemas, pois acredito que mesmo não sendo necessário para seguir a 
+      carreira de programador, é essencial para quem deseja crescer na área. E estou em busca de um <span style="color: #4f46e5;">Estágio</span> 
+  </section>
+
+  <!-- Habilidades -->
+  <section id="habilidades" class="section container">
+    <h2>Habilidades</h2>
+    <ul class="skills">
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>PHP</li>
+      <li>Node.js</li>
+      <li>Python</li>
+      <li>MySQL (CRUD básico)</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos" class="section container">
+
+    <h2>Projetos</h2>
+
+    <div class="grid-projects">
+
+      <article class="card">
+        <img class="img-proj" src="assets/img/M.F2.png" alt="img">
+        <h3>Monitoramento Financeiro</h3>
+        <p>Site simples para monitorar os gastos mensais. </p>
+        <a class="link" href="https://alexsousaveras.github.io/Gerenciador-Financeiro/" target="_blank" rel="noopener">Acessar projeto</a>
+        <br><br>
+        <a class="link" href="https://github.com/AlexSousaVeras/Gerenciador-Financeiro" target="_blank" rel="noopener">GitHub</a>
+      </article>
+
+      <article class="card">
+        <img class="img-proj" src="assets/img/printcalculator.png" alt="img">
+        <h3>Calculadora</h3>
+        <p>Culculadora simples, com operações básicas.</p>
+        <a class="link" href="https://calculadoralex.netlify.app/" target="_blank" rel="noopener">Acessar projeto</a>
+        <br><br>
+        <a class="link" href="https://github.com/AlexSousaVeras/Calculadora" target="_blank" rel="noopener">GitHub</a>
+      </article>
+
+      <!--
+      <article class="card">
+        <img src="" alt="">
+        <h3>API Simples em PHP</h3>
+        <p>API REST para cadastro de clientes e listagem paginada.</p>
+        <p></p>
+        <a class="link" href="#" target="_blank" rel="noopener">Acessar projeto</a>
+        <br><br>
+        <a class="link" href="#" target="_blank" rel="noopener">GitHub</a>
+      </article>
+      -->
+
+    </div>
+
+
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Alexssandro — Desenvolvedor FullStack</p>
+      <div class="social">
+        <a href="https://github.com/AlexSousaVeras" target="_blank" aria-label="GitHub">GitHub</a>
+        <br>
+        <a href="https://www.linkedin.com/in/alex-veras/" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+        <br>
+        <a href="http://sousaverasalexssandro@gmail.com" target="_blank" aria-label="Email">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
