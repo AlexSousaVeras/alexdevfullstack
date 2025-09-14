@@ -264,9 +264,9 @@ a, #strong2, #Projetos  {
 
 .footer-inner {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: center;
+  flex-direction: wrap;
+  gap: 60%;
+  justify-content: center;
   text-align: center;
 }
 
@@ -276,5 +276,6 @@ a, #strong2, #Projetos  {
 }
 
 .footer a:hover { color: var(--text); }
+
 
 
